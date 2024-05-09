@@ -1,0 +1,124 @@
+/* Reset default browser styles */
+body {
+    background-image: url("../img/task1.jpg");
+    background-size:inherit; /* Optional: Ensures the background image covers the entire background */
+    background-repeat: no-repeat;
+    margin: 0; /* Remove default margin */
+    padding: 0;
+    text-align: center;
+    
+}
+a {
+    color: #007bff; /* Set link color */
+    text-decoration: none; 
+    align-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:hover {
+    color: #0056b3; /* Set link color on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+/* Title Styles */
+h1, h5 {
+    color: #ffffff; 
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: 25px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Section Styles */
+.main-section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: rgb(98, 180, 153);
+    border: #666 2px solid;
+    border-radius: 8px ;
+    margin-top: 50px;
+}
+
+/* Add Section Styles */
+.add-section {
+    margin-bottom: 20px;
+    
+}
+
+.add-section input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.add-section button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+}
+
+.add-section button:hover {
+    background-color: #45a049;
+}
+
+/* Show Todo Section Styles */
+.show-todo-section {
+    margin-top: 20px;
+}
+
+.todo-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: relative;
+}
+
+.todo-item .remove-to-do {
+    position:absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.todo-item .check-box {
+    margin-right: 10px;
+}
+
+.todo-item h2 {
+    display: inline;
+}
+
+.todo-item .checked {
+    text-decoration: line-through;
+}
+
+.todo-item small {
+    color: #666;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .add-section input[type="text"] {
+        width: 60%;
+    }
+}

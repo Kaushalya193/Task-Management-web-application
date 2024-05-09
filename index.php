@@ -11,6 +11,8 @@ require 'db_connection.php';
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
+<h1>Task Management System</h1>
+<h5>Create your own to-do list</h5>
     <div class="main-section">
        <div class="add-section">
           <form action="add_task.php" method="POST" autocomplete="off">
@@ -100,5 +102,7 @@ require 'db_connection.php';
             });
         });
     </script>
+
+<a href="URL">Go to Your Profile</a>
 </body>
 </html>
